@@ -1,0 +1,5 @@
+{
+  "train": ["tile01.tif", "tile02.tif"],
+  "valid": ["tile03.tif"],
+  "test":  ["tile04.tif"]
+}
