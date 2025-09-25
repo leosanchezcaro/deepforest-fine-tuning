@@ -10,3 +10,6 @@ notebooks/lightning_logs/
 # figures/temp
 *.png
 *.tmp
+
+# keep models folder
+!models/.gitkeep
