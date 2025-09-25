@@ -1,6 +1,6 @@
 # DeepForest Tree Fine-Tuning (template repo)
 
-This repo provides a minimal, reproducible workflow to fine-tune [DeepForest](https://github.com/weecology/DeepForest) for tree detection on your own tiles and box annotations.  
+This repo provides a simple workflow to fine-tune [DeepForest](https://github.com/weecology/DeepForest) for tree detection on your own tiles and box annotations.  
 
 I annotated around 1200 boxes across multiple locations in my study area. After 10–20 training epochs, both metrics and visual inspection showed clear improvements, meaning that with relatively little extra work you can significantly boost performance for a specific region. The key is to digitize boxes consistently and include examples that represent the full variety of trees present in your area. 
 
