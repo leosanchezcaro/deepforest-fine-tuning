@@ -11,26 +11,26 @@ Installation on Windows can be trickier, but it should work if you follow the en
 
 Create a separate venv and install DeepForest from source:
 
-```.bat
-# clone DeepForest
+```text
+:: clone DeepForest
 git clone https://github.com/weecology/DeepForest.git
 cd DeepForest
 
-# venv (Windows example)
+:: venv (in Windows)
 python -m venv %USERPROFILE%\df_src
 %USERPROFILE%\df_src\Scripts\activate
 python -m pip install -U pip setuptools wheel
 
-# Torch CPU (change to CUDA wheels if you have GPU)
+:: Torch CPU (change to CUDA wheels if you want to use GPU)
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 
-# avoid native build of stringzilla (optional pin)
+:: avoid native build of stringzilla (optional pin)
 pip install "stringzilla==3.12.6"
 
-# install DeepForest (editable)
+:: install DeepForest (editable)
 pip install -e .
 
-# jupyter kernel (optional)
+:: jupyter kernel
 python -m pip install ipykernel
 python -m ipykernel install --user --name df_src --display-name "Python (df_src)"
 ```
