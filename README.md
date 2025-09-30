@@ -6,6 +6,14 @@ I annotated around 1200 boxes across multiple locations in my study area. After 
 
 Installation on Windows can be trickier, but it should work if you follow the environment steps below. If you use another OS (or need GPU support), refer to the official DeepForest documentation and resources.
 
+| Model      | mAP@0.5 | Precision | Recall | F1    | Score thr | NMS |
+| ---------- | ------- | --------- | ------ | ----- | --------- | --- |
+| Base       | 0.180   | 0.483     | 0.406  | 0.441 | 0.06      | 0.3 |
+| Fine-tuned | 0.466   | 0.733     | 0.640  | 0.683 | 0.42      | 0.3 |
+
+<br>  
+<img src="comparison.png" alt="Visual comparison" width="600">
+
 
 ## Environment (DeepForest installed separately)
 
